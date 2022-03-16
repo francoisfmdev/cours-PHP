@@ -1,0 +1,21 @@
+{
+    "name": "lui/myframework",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "public\\": "public/",
+            "Controllers\\":"app/Controllers/",
+            "Database\\": "app/Database/",
+            "Models\\": "app/Models/"
+        }
+    },
+    "authors": [
+        {
+            "name": "francoismaestrati",
+            "email": "francois.maestrati@gmail.com"
+        }
+    ],
+    "require": {
+        "altorouter/altorouter": "^2.0"
+    }
+}
